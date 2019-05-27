@@ -1,0 +1,9 @@
+.Tooltip {
+    position: fixed;
+    border: 1px solid gray;
+    background-color: white;
+    z-index: 9999;
+    max-width: 300px;
+    height: auto;
+    white-space: normal;
+}
