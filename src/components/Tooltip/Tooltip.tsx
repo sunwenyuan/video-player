@@ -32,7 +32,7 @@ export class Tooltip extends Component<ITooltipProps, ITooltipState> {
             <>
                 <div
                     onMouseEnter={() => this.updateDisplayStatus(true)}
-                    onMouseOut={() => this.updateDisplayStatus(false)}
+                    onMouseLeave={() => this.updateDisplayStatus(false)}
                     onMouseMove={(event: React.MouseEvent) =>
                         this.updatePosition(event)
                     }
